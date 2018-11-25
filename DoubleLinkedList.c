@@ -139,12 +139,12 @@ int printAll()
 {
   struct node* currentNode = HEADER->next;
   printf("NULL<-HEADER<->");
-  while (currentNode->next != NULL)
+  while (currentNode != NULL)
   {
     printf("%d<->", currentNode->data);
     currentNode = currentNode->next;
   }
-  printf("%d->NULL\n", currentNode->data);
+ 
   return (0);
 }
 int showMenu(
