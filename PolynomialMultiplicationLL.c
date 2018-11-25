@@ -41,20 +41,27 @@ int multiplyPolynomial(struct node *a, struct node *b, struct node *product) {
 				cpPrev = cp;
 				cp = cp->next;
 			}
-			if (cp->exponent == exponent) {
+			if(cp!=NULL)
+            {
+                if (cp->exponent == exponent) {
 				cp->coefficient += coefficient;
-			} else {
+			}
+            }
+			 if((cp==NULL)||(exponent>cp->exponent))
+			 {
 				struct node *newPtr = newNode();
 				newPtr->next = cpPrev->next;
 				newPtr->exponent = exponent;
 				newPtr->coefficient = coefficient;
 				cpPrev->next = newPtr;
-			}
+
+            }
 			cb = cb->next;
 		}
 		ca = ca->next;
 	}
 }
+
 int printPolynomial(struct node *polynomial, char polynomialName) {
 	struct node *currentNode = polynomial->next;
 	printf("%c(x) = ", polynomialName);
@@ -76,8 +83,28 @@ int printPolynomial(struct node *polynomial, char polynomialName) {
 	printf("\n");
 	return (0);
 }
+int insertNodeEnd(struct node *poly,int exp,int coff)
+{
+    struct node *cp=poly;
+    while(cp->next!=NULL)
+    {
+
+        cp=cp->next;
+    }
+
+    struct node *new=newNode();
+
+    cp->next=new;
+
+
+    new->exponent=exp;
+    new->coefficient=coff;
+    new->next=NULL;
+    return(0);
+}
 int populatePolynomial(struct node *polynomial) {
 	char choice;
+	struct node *c=polynomial;
 	int coefficient, exponent;
 	do {
 		printf("Enter coefficient : ");
@@ -91,6 +118,7 @@ int populatePolynomial(struct node *polynomial) {
 		scanf(" %c", &choice);
 		printf("\n");
 	} while (choice != '2');
+
 	return(0);
 }
 int main() {
