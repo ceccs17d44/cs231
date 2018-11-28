@@ -56,4 +56,4 @@ Sorted list in ascending order:
 7
 8
 
-8/
+*/
