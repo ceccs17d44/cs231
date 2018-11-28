@@ -1,3 +1,7 @@
+/* Sachin R
+   s3 D
+   Merge sort :non-recursive*/
+
 #include <stdio.h>
 
 int main()
@@ -64,3 +68,23 @@ int main()
 	
 	return 0;
 }
+
+/*  output
+
+Enter number of elements in the array : 6
+Enter the array
+45
+56
+21
+98
+102
+63
+Sorted array
+21
+45
+56
+63
+98
+102
+
+*/
