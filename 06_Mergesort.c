@@ -1,3 +1,7 @@
+/* Sachin R
+   s3 D
+   merge sort:recursive */
+
 #include <stdio.h>
 void mergeSort(int [], int, int, int);
 void partition(int [],int, int);
@@ -84,3 +88,24 @@ void mergeSort(int list[],int low,int mid,int high)
         list[k] = temp[k];
     }
 }
+
+/*  output
+
+Enter number of elements in the array :
+6
+Enter the array
+75
+63
+41
+21
+89
+95
+Sorted array
+21
+41
+63
+75
+89
+95
+
+*/
