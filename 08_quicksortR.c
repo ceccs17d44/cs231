@@ -1,3 +1,7 @@
+/* Sachin R
+   s3 D
+   Quick sort:recursive  */
+
 #include<stdio.h>
 void quicksort(int *arr, int low, int high)
 {
@@ -49,4 +53,20 @@ int main()
 
   return 0;
 }
+
+/*  output
+
+Enter the size of the array
+6
+Enter the elements to be sorted
+45
+84
+74
+35
+12
+66
+Sorted array
+12 35 45 66 74 84
+
+*/
 
