@@ -1,3 +1,7 @@
+/* Sachin R
+   s3 D
+   Binary search*/
+
 #include <stdio.h>
 
 int selectionSort(int array[], int size) {
@@ -58,3 +62,27 @@ int main() {
 		printf("Element not found\n");
 	}
 }
+
+/*  output
+
+Enter number of elements : 7
+Enter elements
+4
+6
+8
+2
+3
+7
+1
+Sorted array
+1
+2
+3
+4
+6
+7
+8
+Enter element to search : 6
+Element found at position 5
+
+*/
