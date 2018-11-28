@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   Selection sort*/
 #include <stdio.h>
  
 int main()
@@ -36,3 +39,21 @@ int main()
  
   return 0;
 }
+
+/* output  
+Enter number of elements
+5
+Enter 5 integers
+4
+8
+7
+9
+2
+Sorted list in ascending order:
+2
+4
+7
+8
+9
+
+*/
