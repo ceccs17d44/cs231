@@ -1,3 +1,7 @@
+/* Sachin R
+   s3 D
+   Bubble sort*/
+
 #include <stdio.h>
 
 int bubbleSort(int array[], int size) 
@@ -36,3 +40,29 @@ int main() {
 		printf("%d\n", array[i]);
 	}
 }
+
+/*  output
+
+Enter number of elements in the array : 9
+Enter the array
+55
+88
+22
+44
+66
+18
+75
+61
+34
+Sorted array
+18
+22
+34
+44
+55
+61
+66
+75
+88
+
+*/
