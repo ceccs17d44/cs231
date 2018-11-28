@@ -1,3 +1,7 @@
+
+/* Sachin R
+   s3 D
+   Sequential Search*/
 #include <stdio.h>
 
 int sequentialSearch(int array[], int size, int element) {
@@ -32,3 +36,15 @@ int main() {
 		printf("Element not found\n");
 	}
 }
+/*output
+Enter number of elements :
+5
+Enter elements
+7
+6
+4
+8
+2
+Enter element to search : 4
+Element found at position 3
+*/
