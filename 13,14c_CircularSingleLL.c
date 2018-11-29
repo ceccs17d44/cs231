@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   circular single linked list*/
 #include <stdio.h>
 #include <stdlib.h>
 struct node {
@@ -183,3 +186,141 @@ HEADER->next = HEADER;
 showMenu();
 return(0);
 }
+/* output
+ CIRCULAR SINGLY LINKED LIST
+1. Insert at front
+2. Insert before
+3. Insert after
+4. Insert at end
+5. Print all
+6. Delete first
+7. Delete node
+8. Delete last
+0. Exit
+Enter your choice : 1
+Enter new data : 5
+
+
+        CIRCULAR SINGLY LINKED LIST
+1. Insert at front
+2. Insert before
+3. Insert after
+4. Insert at end
+5. Print all
+6. Delete first
+7. Delete node
+8. Delete last
+0. Exit
+Enter your choice : 3
+Enter new data : 6
+Enter data of the node after which new node is to be created : 5
+
+
+        CIRCULAR SINGLY LINKED LIST
+1. Insert at front
+2. Insert before
+3. Insert after
+4. Insert at end
+5. Print all
+6. Delete first
+7. Delete node
+8. Delete last
+0. Exit
+Enter your choice : 4
+Enter new data : 8
+
+
+        CIRCULAR SINGLY LINKED LIST
+1. Insert at front
+2. Insert before
+3. Insert after
+4. Insert at end
+5. Print all
+6. Delete first
+7. Delete node
+8. Delete last
+0. Exit
+Enter your choice : 5
+HEADER->5->6->8->HEADER
+
+
+        CIRCULAR SINGLY LINKED LIST
+1. Insert at front
+2. Insert before
+3. Insert after
+4. Insert at end
+5. Print all
+6. Delete first
+7. Delete node
+8. Delete last
+0. Exit
+Enter your choice : 6
+
+
+        CIRCULAR SINGLY LINKED LIST
+1. Insert at front
+2. Insert before
+3. Insert after
+4. Insert at end
+5. Print all
+6. Delete first
+7. Delete node
+8. Delete last
+0. Exit
+Enter your choice : 8
+
+
+        CIRCULAR SINGLY LINKED LIST
+1. Insert at front
+2. Insert before
+3. Insert after
+4. Insert at end
+5. Print all
+6. Delete first
+7. Delete node
+8. Delete last
+0. Exit
+Enter your choice : 5
+HEADER->6->HEADER
+
+
+        CIRCULAR SINGLY LINKED LIST
+1. Insert at front
+2. Insert before
+3. Insert after
+4. Insert at end
+5. Print all
+6. Delete first
+7. Delete node
+8. Delete last
+0. Exit
+Enter your choice : 7
+Enter data of the node to be deleted : 6
+
+
+        CIRCULAR SINGLY LINKED LIST
+1. Insert at front
+2. Insert before
+3. Insert after
+4. Insert at end
+5. Print all
+6. Delete first
+7. Delete node
+8. Delete last
+0. Exit
+Enter your choice : 5
+HEADER->HEADER
+
+
+        CIRCULAR SINGLY LINKED LIST
+1. Insert at front
+2. Insert before
+3. Insert after
+4. Insert at end
+5. Print all
+6. Delete first
+7. Delete node
+8. Delete last
+0. Exit
+Enter your choice : 0
+*/
