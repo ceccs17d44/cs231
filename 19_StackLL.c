@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   stack using linked list*/
 #include<stdio.h>
 #include<stdlib.h>
 int c=0;
@@ -134,3 +137,63 @@ int main()
     return 0;
 
 }
+/*  output
+1.push
+2.pop
+3.display
+4.count
+5.delete_all
+6.exit
+enter choice:1
+enter data :5
+
+1.push
+2.pop
+3.display
+4.count
+5.delete_all
+6.exit
+enter choice:1
+enter data :6
+
+1.push
+2.pop
+3.display
+4.count
+5.delete_all
+6.exit
+enter choice:3
+  ->6  ->5
+1.push
+2.pop
+3.display
+4.count
+5.delete_all
+6.exit
+enter choice:2
+
+popped elem is 6
+1.push
+2.pop
+3.display
+4.count
+5.delete_all
+6.exit
+enter choice:3
+  ->5
+1.push
+2.pop
+3.display
+4.count
+5.delete_all
+6.exit
+enter choice:4
+no of elem in stack is 1
+1.push
+2.pop
+3.display
+4.count
+5.delete_all
+6.exit
+enter choice:6
+*/
