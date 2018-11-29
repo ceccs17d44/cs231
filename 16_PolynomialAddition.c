@@ -1,3 +1,7 @@
+
+/* Sachin R
+   s3 D
+   polynomial addition*/
 #include<stdio.h>
 #include<malloc.h>
 #include<conio.h>
@@ -103,3 +107,33 @@ main()
       }
       while(ch=='y' || ch=='Y');
 }
+
+/* output
+enter 1st number:
+ enter coeff:2
+
+ enter power:4
+
+ continue(y/n):
+ enter coeff:1
+
+ enter power:1
+
+ continue(y/n):
+enter 2nd number:
+ enter coeff:2
+
+ enter power:2
+
+ continue(y/n):
+ enter coeff:1
+
+ enter power:1
+
+ continue(y/n):
+1st Number:  2x^4+1x^1
+
+2nd Number:  2x^2+1x^1
+
+Added polynomial:  2x^4+2x^2+2x^1
+*/
