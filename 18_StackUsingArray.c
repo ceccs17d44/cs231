@@ -1,5 +1,7 @@
+/* Sachin R
+   s3 D
+   stack using array*/
 #include <stdio.h>
-
 int stack[100], n=100, top;
 
 int push(int data) 
@@ -68,7 +70,81 @@ int main()
 				display();
 				break;
 			default:
-				printf("Invalid choice.\n");
+				break;
 		}
 	} while (ans != '4');
 }
+
+/*  output
+     Stack Using array
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice : 1
+Enter data to be pushed : 5
+
+
+        Stack Using array
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice : 1
+Enter data to be pushed : 6
+
+
+        Stack Using array
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice : 1
+Enter data to be pushed : 4
+
+
+        Stack Using array
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice : 3
+
+
+Stack contents
+4
+6
+5
+
+
+
+        Stack Using array
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice : 2
+Popped element is 4
+
+
+        Stack Using array
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice : 3
+
+
+Stack contents
+6
+5
+
+
+
+        Stack Using array
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice : 4
+*/
