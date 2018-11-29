@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   multiple stack using array */
 #include <stdio.h>
 #include<stdlib.h>
 #define SIZE 50
@@ -125,3 +128,88 @@ int main()
   }
   return 0;
 }
+
+/*  output
+We can push a total of 50 values
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :1
+
+enter data :5
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :1
+
+enter data :6
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :2
+
+enter data :4
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :2
+
+enter data :8
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :5
+stack 1:
+5 6
+stack 2:
+4 8
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :3
+0 is being popped from Stack 1
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :4
+0 is being popped from Stack 2
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :5
+stack 1:
+5
+stack 2:
+4
+1. push in stack 1
+2. push in stack 2
+3. pop from stack 1
+4. pop from stack 2
+5.display
+6. exit
+enter choice :6
+*/
