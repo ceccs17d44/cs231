@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   circular double linked list*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -229,3 +232,147 @@ int main()
   showMenu();
   return (0);
 }
+/* output
+Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+0. Exit
+Enter your choice : 1
+
+Enter new data : 5
+
+
+        Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+0. Exit
+Enter your choice : 3
+
+Enter new data : 9
+Enter data of the node after which new node is to be created : 5
+
+
+        Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+0. Exit
+Enter your choice : 4
+
+Enter new data : 7
+
+
+        Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+0. Exit
+Enter your choice : 5
+
+<-HEADER<->5<->9<->7<->
+
+        Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+0. Exit
+Enter your choice : 6
+
+
+
+        Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+0. Exit
+Enter your choice : 8
+
+
+
+        Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+0. Exit
+Enter your choice : 5
+
+<-HEADER<->9<->
+
+        Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+0. Exit
+Enter your choice : 7
+
+Enter data of the node to be deleted : 9
+
+
+        Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+0. Exit
+Enter your choice : 5
+
+<-HEADER<->empty
+
+        Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+0. Exit
+Enter your choice : 0
+*/
