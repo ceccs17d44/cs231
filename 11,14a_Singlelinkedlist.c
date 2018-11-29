@@ -1,3 +1,7 @@
+/* Sachin R
+   s3 D
+   Single Linked list*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -235,3 +239,111 @@ int main()
 	
 	return (0);
 }
+
+/*  output
+       LINKED LIST
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete last node
+8. Delete node
+9. Delete all
+0. Exit
+Enter your choice : 1
+
+Enter new data : 5
+
+        LINKED LIST
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete last node
+8. Delete node
+9. Delete all
+0. Exit
+Enter your choice : 3
+
+Enter data after which new node is to be created : 5
+Enter new data : 6
+
+        LINKED LIST
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete last node
+8. Delete node
+9. Delete all
+0. Exit
+Enter your choice : 5
+
+
+Linked List
+HEADER->5->6->NULL
+
+        LINKED LIST
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete last node
+8. Delete node
+9. Delete all
+0. Exit
+Enter your choice : 6
+
+
+        LINKED LIST
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete last node
+8. Delete node
+9. Delete all
+0. Exit
+Enter your choice : 7
+
+
+        LINKED LIST
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete last node
+8. Delete node
+9. Delete all
+0. Exit
+Enter your choice : 5
+
+
+Linked List
+HEADER->NULL
+
+        LINKED LIST
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete last node
+8. Delete node
+9. Delete all
+0. Exit
+Enter your choice : 0
+*/
