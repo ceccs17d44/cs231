@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   polynomial multiplication*/
 #include <stdio.h>
 #include <stdlib.h>
 struct node {
@@ -153,3 +156,35 @@ int main() {
 	deleteAll(polynomial3);
 	return (0);
 }
+
+/*  output
+   Polynomial 1
+Enter coefficient : 2
+Enter exponent : 1
+
+1. Add more terms
+2. Continue
+Enter your choice : 1
+
+Enter coefficient : 3
+Enter exponent : 2
+
+1. Add more terms
+2. Continue
+Enter your choice : 2
+
+        Polynomial 2
+Enter coefficient : 2
+Enter exponent : 2
+
+1. Add more terms
+2. Continue
+Enter your choice : 2
+
+
+Multiplying polynomials
+P(x) = 2x^1 + 3x^2
+Q(x) = 2x^2
+Sum
+R(x) = 6x^4 + 4x^3
+*/
