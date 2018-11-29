@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   polynomial representation */
 #include <stdio.h>
 #include <stdlib.h>
 struct node {
@@ -86,3 +89,29 @@ int main() {
 	deleteAll();
 	return (0);
 }
+
+/* output
+Enter coefficient : 4
+Enter exponent : 2
+
+1. Add more terms
+2. Print and exit
+Enter your choice : 1
+
+Enter coefficient : 6
+Enter exponent : 5
+
+1. Add more terms
+2. Print and exit
+Enter your choice : 1
+
+Enter coefficient : 7
+Enter exponent : 8
+
+1. Add more terms
+2. Print and exit
+Enter your choice : 2
+
+
+F(x) = 4x^2 + 6x^5 + 7x^8
+*/
