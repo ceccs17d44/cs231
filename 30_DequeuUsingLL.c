@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   Dequeue using linked list */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -82,7 +85,7 @@ int main() {
 	HEADER->data = 0;
 	HEADER->next = NULL;
 	do {
-		printf("\n\tQueue using array\n");
+		printf("\n\tDeQueue using linked list\n");
         printf("1.Enqueue Front\n");
         printf("2.Enqueue Rear\n");
         printf("3.Dequeue Front\n");
@@ -110,3 +113,86 @@ int main() {
 		}
 	} while(choice != '6');
 }
+/*  output
+
+        deQueue using linked list
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 1
+Enter data : 5
+
+        deQueue using linked list
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 1
+Enter data : 4
+
+        deQueue using linked list
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 2
+Enter data : 8
+
+        deQueue using linked list
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 5
+
+Linked List
+HEADER->4->5->8->NULL
+
+        deQueue using linked list
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 3
+
+        deQueue using linked list
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 4
+
+        deQueue using linked list
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 5
+
+Linked List
+HEADER->5->NULL
+
+        deQueue using linked list
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 6
+*/
