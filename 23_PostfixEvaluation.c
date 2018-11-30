@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   stack : postfix exp evaluation */
 #include <stdio.h>
 #include <stdlib.h>
 int power(int base, int exponent) {
@@ -47,3 +50,7 @@ int main() {
   }
   printf("%d\n", stack[top]);
 }
+/*  output
+Enter the postfix expression : 14*64-/
+2
+*/
