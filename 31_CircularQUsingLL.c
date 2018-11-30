@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   circular queue using linked list */
 #include<stdio.h>
 #include<stdlib.h>
 struct queue{
@@ -113,3 +116,68 @@ break;
 }
 }
 }
+/*  output
+  enter choice
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+1
+element to be pushed in queue
+5
+
+       enter choice
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+1
+element to be pushed in queue
+9
+
+       enter choice
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+3
+Size of queue is 2
+
+       enter choice
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+4
+Queue is -->> 5 9
+
+       enter choice
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+2
+element poped from queue is 5
+
+       enter choice
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+4
+Queue is -->> 9
+
+       enter choice
+1.Push
+2.Pop
+3.SizeOfQueue
+4.Display
+0.EXIT
+0
+*/
