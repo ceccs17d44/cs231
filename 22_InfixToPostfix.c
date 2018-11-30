@@ -1,5 +1,7 @@
+/* Sachin R
+   s3 D
+   stack : infix to postfix convertion*/
 #include <stdio.h>
-
 int instackPriority(char symbol) {
   switch(symbol) {
     case '+':
@@ -37,6 +39,7 @@ int main () {
   int i, top=-1;
   printf("Enter the infix expression : ");
   scanf(" %s", infix);
+  printf(" postfix exp is \n");
   for (i=0; infix[i] != '\0'; i++) {
     if (isOperand(infix[i])) {
       printf("%c", infix[i]);
@@ -56,8 +59,13 @@ int main () {
       stack[++top] = infix[i];
     }
   }
-printf(" postfix exp is \n");
+
   while (top > -1) {
     printf("%c ", stack[top--]);
   }
 }
+/*  output
+Enter the infix expression : (A*B)/(C-D)
+ postfix exp is
+AB*CD-/
+*/
