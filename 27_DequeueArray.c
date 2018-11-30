@@ -1,5 +1,7 @@
+/* Sachin R
+   s3 D
+   dequeue using array */
 #include <stdio.h>
-
 int queue[100], n=100, front=-1, rear=-1;
 
 void enqueueRear() {
@@ -98,3 +100,65 @@ int main() {
 		}
 	} while(choice != '6');
 }
+/*  output
+
+        Queue using array
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 1
+Enter data to be inserted : 5
+
+        Queue using array
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 2
+Enter data to be entered : 9
+
+        Queue using array
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 5
+5
+9
+
+        Queue using array
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 3
+Deleted element : 5
+
+        Queue using array
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 5
+9
+
+        Queue using array
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 6
+*/
