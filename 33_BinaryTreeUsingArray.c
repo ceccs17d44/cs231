@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   Binary Tree Using Array */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -137,3 +140,74 @@ int main() {
 	initialise();
 	showMenu();
 }
+/*  output
+ Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 1
+Enter data to be inserted : 5
+Successfully inserted
+
+        Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 1
+Enter data of the parent node : 5
+Enter data to be inserted : 8
+Where do you want to enter the data (L/R): l
+Successfully inserted
+
+        Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 1
+Enter data of the parent node : 8
+Enter data to be inserted : 7
+Where do you want to enter the data (L/R): r
+Successfully inserted
+
+        Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 4
+ 8 7 5
+        Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 2
+Enter data to be searched : 7
+Node found
+Enter data of the node to be deleted : 5
+Successfully deleted
+
+        Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 4
+ 8 7
+        Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice :5
+*/
