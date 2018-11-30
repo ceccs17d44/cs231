@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   circular queue using array */
 #include <stdio.h>
 #define size 10
 int queue[size], front, rear;
@@ -65,3 +68,63 @@ int main() {
 		}
 	} while(choice != '4');
 }
+/*  output
+    Queue using array
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 1
+Enter data to be entered : 5
+
+        Queue using array
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 1
+Enter data to be entered : 6
+
+        Queue using array
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 3
+5:6:-:-:-:-:-:-:-:-:
+        Queue using array
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 2
+
+        Queue using array
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 3
+-:6:-:-:-:-:-:-:-:-:
+        Queue using array
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 1
+Enter data to be entered : 8
+
+        Queue using array
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 3
+-:6:8:-:-:-:-:-:-:-:
+        Queue using array
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 4
+*/
