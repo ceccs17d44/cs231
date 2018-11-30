@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   representation of arithmatic exp using linked list */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -68,3 +71,8 @@ int main() {
 	
 	return (0);
 }
+/* output
+
+Enter arithmatic expression : (A*B)+(C/D-F)
+Entered experssion : (A*B)+(C/D-F)
+*/
