@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   stack :infix exp evaluation */
 #include <stdio.h>
 #include <stdlib.h>
 int power(int base, int exponent) {
@@ -83,3 +86,7 @@ int main() {
   }
   printf("Final result : %d\n", operandStack[0]);
 }
+/*  output
+Enter the infix expression : (3*5)-(5/1)
+Final result : 10
+*/
