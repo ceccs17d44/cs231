@@ -1,3 +1,6 @@
+/* Sachin R
+   s3 D
+   queue using array */
 #include <stdio.h>
 #include<stdlib.h>
  
@@ -79,3 +82,47 @@ int main()
     } 
 return 0;
 }
+/* output
+1.Insert element to queue
+2.dequeue element from queue
+3.Display all elements of queue
+4.Quit
+Enter your choice : 1
+Inset the element in queue : 5
+1.Insert element to queue
+2.dequeue element from queue
+3.Display all elements of queue
+4.Quit
+Enter your choice : 1
+Inset the element in queue : 6
+1.Insert element to queue
+2.dequeue element from queue
+3.Display all elements of queue
+4.Quit
+Enter your choice : 3
+Queue is :
+5 6
+1.Insert element to queue
+2.dequeue element from queue
+3.Display all elements of queue
+4.Quit
+Enter your choice : 2
+Element dequeued from queue is : 5
+1.Insert element to queue
+2.dequeue element from queue
+3.Display all elements of queue
+4.Quit
+Enter your choice : 2
+Element dequeued from queue is : 6
+1.Insert element to queue
+2.dequeue element from queue
+3.Display all elements of queue
+4.Quit
+Enter your choice : 2
+Queue Underflow
+1.Insert element to queue
+2.dequeue element from queue
+3.Display all elements of queue
+4.Quit
+Enter your choice : 4
+*/
